@@ -6,10 +6,6 @@ function SideNav(){
   return(
     <div className="sideNav">
       
-      
-      
-      
-
       <div className="icon-project-dashboard">
         <Link to="/projectdashboard">Project</Link>
       </div>
