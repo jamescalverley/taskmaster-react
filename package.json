@@ -2,7 +2,7 @@
   "name": "taskmaster",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jamescalverley.github.io/taskmaster-react-jc",
+  "homepage": "http://jamescalverley.github.io/projectdashboard",
   "engines": {
     "npm": "6.13.6",
     "node": "13.8.0"
