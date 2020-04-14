@@ -3,6 +3,7 @@ import '../components-style.css';
 import TextArea from './TextArea';
 
 function Card(props){
+  console.log('logging props passed to Card', props);
 
   return (
     <div className="card">

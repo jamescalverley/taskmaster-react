@@ -120,17 +120,17 @@ const columnStyle = {
   margin: '32px',
 };
 
-
-  function addColumn() {
-    const newColumn = {
-        name: '',
-        columnid: user.dashboards[0].columns.length + 1,
-        cards: [], 
-    };
-    // columns.push(newColumn);
-    user.dashboards[0].columns.push(newColumn);
-    setUser({ ...user });
-    //updateUserProfile(user);
+function addColumn() {
+const newColumn = {
+name: '',
+columnid: user.dashboards[0].columns.length + 1,
+cards: [], 
+};
+// columns.push(newColumn);
+user.dashboards[0].columns.push(newColumn);
+setUser({ ...user });
+console.log("adding new columm", newColumn)
+//updateUserProfile(user);
 }
 
 function deleteColumn(colIndex) {
@@ -188,12 +188,36 @@ function updateColumnTitle(index, title) {
   //updateUserProfile(user);
 }
 
- 
+//? vvvvvvvvv uncomment once db is connected vvvvvvvvv
+// async function updateUserProfile(user) {
+//         const url = '/api/updateUserProfile';
+//         const result = await fetch(url, {
+//         method: 'POST',
+//         body: JSON.stringify(user),
+//         headers: {
+//         'Content-Type': 'application/json',
+//         },
+//         }).then((response) => response.json());
+//         console.log(result);
+// }
+
+// async function getUser(email = 'user@user.com') {
+//         const url = `/api/getUser/${email}`;
+//         const result = await fetch(url).then((response) => response.json());
+//         const user = result[0];
+// // console.log(user.dashboards[0].columns);
+// // setColumns([...user.dashboards[0].columns]);
+// setUser({ ...user });
+// }
+
+// useEffect(function () {
+//         getUser();
+// }, []);
+//? ^^^^^^^^ uncomment once db is connected ^^^^^^^
 
   return(
-    <>
-    {/* <div id={props.id}> */}
-    {/* <h1>TEST: {user.dashboards[0].name}</h1> */}
+    
+    <div id={props.id}>
     <div className="project-column-wrapper">
     {user.dashboards[0].columns.map((element, index) => {
       return (
@@ -220,54 +244,10 @@ function updateColumnTitle(index, title) {
     })}
     <div style={{ margin: '32px' }}>
     <button type="button" className="btn-lg btn-outline-secondary"onClick={addColumn}>Add column</button>
-  </div>
-  </div>
-  
-    {/* <div>
-    {user.dashboards[0].columns.map((element, index) => {
-        return (
-            <Column
-                // id={Math.random().toString()}
-                // style={columnStyle}
-                // cards={element.cards}
-                // colName={element.name}
-                // colid={element.columnid}
-                // addCard={addCard}
-                // deleteCard={deleteCard}
-                // colIndex={index}
-                // deleteColumn={deleteColumn}
-                // saveCard={saveCard}
-                // colTitle={
-                //     <ColumnTitle
-                //         title={element.name}
-                //         index={index}
-                //         updateColumnTitle={updateColumnTitle}
-                //     />
-                // }
-            />
-        );
-    })}
-
-    <div style={{ margin: '32px' }}>
-        <button onClick={addColumn}>Add column</button>
     </div>
-    </div>     */}
+    </div>
 
-
-
-    {/* <div className="dashboard-main">
-      <h1>Project Dashboard</h1>
-      <div className="project-column-wrapper">
-        {columns.map( column => 
-          <Column columnData={columns}/>
-        )}
-
-        <button onClick={addColumn} className="btn btn-primary">Add Column</button>
-      </div>
-     
-      
-    </div> */}
-    </>
+    </div>
   );
 };
 

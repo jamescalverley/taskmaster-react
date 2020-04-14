@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 function ColumnTitle(props) {
     const [title, setTitle] = useState(props.title);
+    
     function handleInputChange(e) {
         setTitle(e.target.value);
     }
