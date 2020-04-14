@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/projectdashboard/static/css/main.fc8e4624.chunk.css",
-    "main.js": "/projectdashboard/static/js/main.7813ea08.chunk.js",
-    "main.js.map": "/projectdashboard/static/js/main.7813ea08.chunk.js.map",
-    "runtime-main.js": "/projectdashboard/static/js/runtime-main.49ce28b6.js",
-    "runtime-main.js.map": "/projectdashboard/static/js/runtime-main.49ce28b6.js.map",
-    "static/js/2.340c1b46.chunk.js": "/projectdashboard/static/js/2.340c1b46.chunk.js",
-    "static/js/2.340c1b46.chunk.js.map": "/projectdashboard/static/js/2.340c1b46.chunk.js.map",
-    "index.html": "/projectdashboard/index.html",
-    "precache-manifest.d73e7cc3b04558573251839eb0941a23.js": "/projectdashboard/precache-manifest.d73e7cc3b04558573251839eb0941a23.js",
-    "service-worker.js": "/projectdashboard/service-worker.js",
-    "static/css/main.fc8e4624.chunk.css.map": "/projectdashboard/static/css/main.fc8e4624.chunk.css.map",
-    "static/js/2.340c1b46.chunk.js.LICENSE.txt": "/projectdashboard/static/js/2.340c1b46.chunk.js.LICENSE.txt"
+    "main.css": "/taskmaster-react-jc/static/css/main.fc8e4624.chunk.css",
+    "main.js": "/taskmaster-react-jc/static/js/main.7813ea08.chunk.js",
+    "main.js.map": "/taskmaster-react-jc/static/js/main.7813ea08.chunk.js.map",
+    "runtime-main.js": "/taskmaster-react-jc/static/js/runtime-main.d50712a5.js",
+    "runtime-main.js.map": "/taskmaster-react-jc/static/js/runtime-main.d50712a5.js.map",
+    "static/js/2.340c1b46.chunk.js": "/taskmaster-react-jc/static/js/2.340c1b46.chunk.js",
+    "static/js/2.340c1b46.chunk.js.map": "/taskmaster-react-jc/static/js/2.340c1b46.chunk.js.map",
+    "index.html": "/taskmaster-react-jc/index.html",
+    "precache-manifest.5998d58d86b16b3c3a3eb68ee4797267.js": "/taskmaster-react-jc/precache-manifest.5998d58d86b16b3c3a3eb68ee4797267.js",
+    "service-worker.js": "/taskmaster-react-jc/service-worker.js",
+    "static/css/main.fc8e4624.chunk.css.map": "/taskmaster-react-jc/static/css/main.fc8e4624.chunk.css.map",
+    "static/js/2.340c1b46.chunk.js.LICENSE.txt": "/taskmaster-react-jc/static/js/2.340c1b46.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.49ce28b6.js",
+    "static/js/runtime-main.d50712a5.js",
     "static/js/2.340c1b46.chunk.js",
     "static/css/main.fc8e4624.chunk.css",
     "static/js/main.7813ea08.chunk.js"
